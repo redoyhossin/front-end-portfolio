@@ -27,6 +27,11 @@ const Banner = () => {
                     </a>
                 </div>
             </div>
+
+            <div className='mt-96'>
+            {/* <button className="btn btn-outline btn-accent">About Me</button> */}
+           </div>
+
         </div>
 
     );

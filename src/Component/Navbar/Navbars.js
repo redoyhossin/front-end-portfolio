@@ -28,6 +28,7 @@ const Navbars = () => {
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/Project' >Project</Link></li>
                         <li><Link to='/Contacts'>Contacts</Link></li>
+                        <li><Link to='/AboutMe'>About Me</Link></li>
                         <img className='w-12 rounded-full' src={profile} alt="" />
                     </ul>
                 </div>

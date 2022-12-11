@@ -1,5 +1,6 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import AboutMe from '../Component/AboutMe/AboutMe';
 import Contacts from '../Component/Contacts/Contacts';
 import Handleerror from '../Component/Handleerror/Handleerror';
 import Home from '../Component/Home/Home';
@@ -18,18 +19,22 @@ const Router = ({ children }) => {
                 },
                 {
                     path: 'Project',
-                    element:<Project/>
+                    element: <Project />
                 },
                 {
                     path: 'Contacts',
-                    element:<Contacts/>
-                }
+                    element: <Contacts />
+                },
             ]
         },
         {
+            path: 'AboutMe',
+            element: <AboutMe />
+        },
+        {
             path: '*',
-            element:<Handleerror/>
-       }
+            element: <Handleerror />
+        }
     ])
     return (
         <div>
