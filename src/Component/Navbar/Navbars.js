@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import profile from '../../Assets/profile/profile.jpg'
 
 const Navbars = () => {
-    
+
     return (
         <div className=''>
             <div className="navbar bg-slate-600 flex justify-between ">
@@ -17,6 +17,8 @@ const Navbars = () => {
                             <li><Link to='/'>Home</Link></li>
                             <li><Link to='/Project' >Project</Link></li>
                             <li><Link to='/Contacts'>Contacts</Link></li>
+                            <li><Link to='/AboutMe'>About Me</Link></li>
+                            <li><Link to='/Blogs'>Blogs</Link></li>
                             <img className='w-12 rounded-full ml-3' src={profile} alt="" />
                         </ul>
                     </div>
@@ -29,6 +31,7 @@ const Navbars = () => {
                         <li><Link to='/Project' >Project</Link></li>
                         <li><Link to='/Contacts'>Contacts</Link></li>
                         <li><Link to='/AboutMe'>About Me</Link></li>
+                        <li><Link to='/Blogs'>Blogs</Link></li>
                         <img className='w-12 rounded-full' src={profile} alt="" />
                     </ul>
                 </div>
