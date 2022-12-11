@@ -24,7 +24,7 @@ const Aboutbody = () => {
                             </svg>
                         </div>
                         <span className="w-12 h-1 my-2 rounded-lg dark:bg-violet-400"></span>
-                        <p>Coder</p>
+                        <p>Football match</p>
                     </div>
 
 
@@ -44,7 +44,7 @@ const Aboutbody = () => {
                             </svg>
                         </div>
                         <span className="w-12 h-1 my-2 rounded-lg dark:bg-violet-400"></span>
-                        <p>Football match</p>
+                        <p>Coder</p>
                     </div>
                 </div>
             </section>
