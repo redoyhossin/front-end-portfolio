@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import contact from '../../Assets/project/contactme.jpeg'
 import UseTitle from '../../Hooks/UseTitle/UseTitle';
 import Footer from '../Footer/Footer';
+import { toast } from 'react-toastify';
 
 const Contacts = () => {
     UseTitle('Contacts')
@@ -16,10 +17,11 @@ const Contacts = () => {
             .then((result) => {
                 console.log(result.text);
                 console.log('done')
+                toast.success('Send')
             }, (error) => {
                 console.log(error.text);
             });
-      
+            e.target.reset()
     };
     return (
         <div>
